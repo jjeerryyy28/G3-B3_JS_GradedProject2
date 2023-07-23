@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume Page</title>
+  <link rel="stylesheet" href="../css/main.css">
+  <!-- Include the FontAwesome library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+  <div class="resume-container">
+    <h1>Applicant Details</h1>
+    <div class="search-bar">
+      <button class="btn-search"><i class="fas fa-search"></i></button>
+      <input type="text" class="input-search" id="jobFilter" placeholder="Type to Search...">
+      <button id="searchBtn">Search</button>
+      <button class="logoutBtn">Log out</button>
+    </div>
+    <div id="errorMessage" class="error-message"></div>
+    <div id="applicantDetails"></div>
+    <div class="navigation-buttons">
+      <button id="prevBtn">Previous</button>
+      <button id="nextBtn">Next</button>
+    </div>
+    
+  </div>
+  <script src="../js/resume.js"></script>
+</body>
+</html>

@@ -1,0 +1,242 @@
+/* Your CSS styles go here */
+
+/* Example CSS styles for the applicant details layout */
+body {
+  font-family: Arial, sans-serif;
+  /* background-color: #f1f1f1; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.search-box{
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+}
+.input-search{
+  text-align: center;
+  height: 20px;
+  width: 200px;
+  border-style: none;
+  padding: 10px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  outline: none;
+  border-radius: 25px;
+  background-color: #22a6b3;
+  color: rgb(133, 32, 32);
+}
+.input-search::placeholder{
+  color:rgba(255,255,255,.5);
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+.btn-search{
+  width: 50px;
+  height: 50px;
+  border-style: none;
+  font-size: 20px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50%;
+  position: absolute;
+  right: 0px;
+  color:#ffffff ;
+  background-color:transparent;
+  pointer-events: painted;  
+}
+
+.content {
+  display: flex;
+  flex-direction: row; /* Change the direction to row */
+  justify-content: space-between; /* Add space between the sections */
+}
+
+.resume-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #d2fccf;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.resume-container h1 {
+  text-align: center;
+}
+
+#jobFilter {
+  margin-left: 390px;
+}
+
+.box {
+  margin-top: 20px;
+  text-align: center;
+  /* border: 2px solid red; */
+  background-color: rgb(193, 250, 231);
+  font-family: 'Times New Roman', Times, serif;
+  width: 1000px;
+  height: 120px;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left{
+  border-radius: 12px 12px 12px 12px;
+}
+
+.leftSection {
+  margin-top: 40px;
+  width: 25vw; /* Adjust the width as needed */
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid blue; */
+  background-color: rgb(250, 201, 237);
+  border-radius: 8px;
+  height: 70vh;
+}
+
+.rightSection {
+  margin-top: 10px;
+  width: 50vw; /* Adjust the width as needed */
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid blue; */
+  /* background-color: rgb(250, 201, 237); */
+  border-radius: 8px;
+}
+
+.leftSection h3 {
+  text-align: center;
+  /* border: 2px solid green; */
+  background-color: rgb(145, 144, 143);
+}
+
+.leftSection h3:first-child{
+  margin-top: -1px;
+  border-radius: 8px 8px 0 0;
+}
+.rightSection h3{
+  text-align: left;
+  /* border: 2px solid green; */
+  /* background-color: rgb(145, 144, 143); */
+  margin: 0;
+  padding: 8px 0; /* Add padding for better appearance */
+}
+
+.leftSection p {
+  text-align: right;
+  margin-right: 5px;
+  margin-top: 0;
+  margin-bottom: 5px; /* Add margin at the bottom of each <p> */
+}
+
+.rightSection p {
+  text-align: justify;
+  margin-left: 25px;
+
+}
+
+.navigation-buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px; 
+}
+
+#prevBtn{
+  height: 40px;
+  width: 100px;
+}
+
+#searchBtn{
+  height: 26px;
+  font-size: 15px;
+  color: #ebe2f8;;
+  background-color: #eeaeca;
+  background: linear-gradient(30deg, #eeaeca 0%, #94bbe9 100%);
+  border: none;
+  border-radius: 12px;
+}
+
+#searchBtn:hover{
+  cursor: pointer;
+  box-shadow: inset 0 0 35px 0px rgba(0, 0, 0, 0.15), inset 0 2px 1px 1px rgba(255, 255, 255, 0), 1px 1px 15px 2px rgba(154, 137, 164, 0.1);
+  text-shadow: 3px -3px 5px #04276d, -3px 3px 5px #c097b2;
+  transition: box-shadow 0.4s, text-shadow 0.5s;
+}
+
+
+.navigation-buttons button {
+  margin: auto;
+  padding: 0;
+  border: none;
+  border-radius: 12px;
+  width: 70px;
+  height: 40px;
+  background: #eeaeca;
+  background: linear-gradient(30deg, #eeaeca 0%, #94bbe9 100%);
+  color: #e7d6fe;
+  font-size: 1.2em;
+  font-weight: 600;
+  box-shadow: inset 0 0 35px 0px rgba(0, 0, 0, 0.25), inset 0 2px 1px 1px rgba(255, 255, 255, 0), 1px 1px 15px 2px rgba(154, 137, 164, 0.5);
+  text-shadow: 1px -1px 3px #8fa2c7, -1px 1px 3px #c097b2;
+  outline: none;
+  transition: box-shadow 0.4s, text-shadow 0.5s;
+}
+.navigation-buttons button:hover {
+  cursor: pointer;
+  box-shadow: inset 0 0 35px 0px rgba(0, 0, 0, 0.15), inset 0 2px 1px 1px rgba(255, 255, 255, 0), 1px 1px 15px 2px rgba(154, 137, 164, 0.1);
+  text-shadow: 3px -3px 5px #04276d, -3px 3px 5px #c097b2;
+  transition: box-shadow 0.4s, text-shadow 0.5s;
+}
+
+.navigation-buttons button:active {
+  background: linear-gradient(30deg, #d2b2d4 0%, #b1b7df 100%);
+  color: #6a686e;
+  box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, 0.15), 1px 1px 15px 2px rgba(154, 137, 164, 0.1);
+  text-shadow: 1px -1px 1px rgba(143, 162, 199, 0.75), -1px 1px 1px rgba(192, 151, 178, 0.75);
+  transition: background 0.3s color 0.2s, text-shadow 0.3s box-shadow 0.3s;
+}
+
+.logoutBtn{
+  background-color: #99a6cb;
+  border: 0;
+  outline: 0;
+  width: 60px;
+  height: 30px;
+  border-radius: 5px;
+  box-shadow: 2px 4px black;
+  margin-left: 200px;
+  position: static;
+}
+
+.logoutBtn:hover{
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .resume-container {
+    width: 90%; /* Change the container width to 90% of the viewport width */
+    max-width: 800px; /* Limit the maximum width for smaller screens */
+  }
+
+  .box {
+    width: 90%; /* Adjust the box width to 90% of the container width */
+  }
+
+  .leftSection,
+  .rightSection {
+    width: 100%; /* Set the left and right section to occupy full width */
+  }
+
+  #jobFilter {
+    margin-left: 0; /* Remove the margin for the search box on smaller screens */
+    margin-top: 10px; /* Add some margin at the top */
+  }
+}
