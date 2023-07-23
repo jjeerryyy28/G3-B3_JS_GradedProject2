@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(../assets/error-1.avif);
+  background-repeat: no-repeat;
+  background-size:auto;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Set the height to fill the viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.error-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.error-container h2 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.error-message {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+a {
+  margin-top: -20em;
+  margin-right: 50em;
+  font-size: 1.2rem;
+  background-color: rgb(249, 186, 243);
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: rgb(241, 157, 157);
+  color: white;
+}
+
+/* CSS to hide the search container */
+#searchContainer {
+  display: block;
+}
