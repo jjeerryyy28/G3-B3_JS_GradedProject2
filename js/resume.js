@@ -172,7 +172,7 @@ document
         }
       }
     }
-  })
+  });
 
 const logOutBtn = document.getElementsByClassName("logoutBtn")[0];
 logOutBtn.addEventListener("click", function () {

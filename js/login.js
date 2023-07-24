@@ -8,4 +8,5 @@ document.getElementById('loginBtn').addEventListener('click', function() {
   } else {
     document.getElementById('errorMessage').innerText = "Invalid username/password.";
   }
+
 });
