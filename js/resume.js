@@ -173,8 +173,11 @@ document
       }
     }
   });
+<<<<<<< HEAD
 
 const logOutBtn = document.getElementsByClassName("logoutBtn")[0];
 logOutBtn.addEventListener("click", function () {
   window.location.href = "../html/index.html";
 });
+=======
+>>>>>>> d23ecf336cdae42c133f4f106af1ac3b75a9e4af
